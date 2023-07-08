@@ -1,0 +1,413 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.my-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.my-navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.my-navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.my-navigation li a:hover {
+  color: #333;
+}
+
+/* Cursos */
+
+.cursos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cursos-table th,
+.cursos-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.cursos-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cursos-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cursos-table td button:hover {
+  background-color: #cc0000;
+}
+
+.curso-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cursos-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.cursos-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-curso-container {
+  margin-top: 10px;
+}
+
+/* Periodo */
+
+.periodos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.periodos-table th,
+.periodos-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.periodos-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.periodos-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.periodos-table td button:hover {
+  background-color: #cc0000;
+}
+
+.periodo-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.periodos-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.periodos-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-periodo-container {
+  margin-top: 20px;
+}
+
+.turno-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.turno-select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Horários */
+
+.horarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.horarios-table th,
+.horarios-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.horarios-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.horarios-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.horarios-table td button:hover {
+  background-color: #cc0000;
+}
+
+.horarios-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.horarios-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.horarios-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-horario-container {
+  margin-top: 20px;
+}
+
+/* Desafio */
+
+.desafios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.desafios-table th,
+.desafios-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.desafios-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.desafios-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.desafios-table td button:hover {
+  background-color: #cc0000;
+}
+
+.desafios-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.desafios-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.desafios-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-desafio-container {
+  margin-top: 20px;
+}
+
+/* Professores */
+
+.professores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.professores-table th,
+.professores-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.professores-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.professores-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.professores-table td button:hover {
+  background-color: #cc0000;
+  background-color: #cc0000;
+}
+
+.professores-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.professores-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.professores-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-professor-container {
+  margin-top: 20px;
+}
+
+/* Salas */
+
+.salas-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.salas-table th,
+.salas-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.salas-table th {
+  background-color: #00a4e4;
+  color: #fff;
+  font-weight: bold;
+}
+
+.salas-table td button {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.salas-table td button:hover {
+  background-color: #cc0000;
+}
+
+.sala-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.salas-container .btn-adicionar {
+  background-color: #00a4e4;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.salas-container .btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+.adicionar-sala-container {
+  margin-top: 20px;
+}
+
+.sala-input::-webkit-outer-spin-button,
+.sala-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
